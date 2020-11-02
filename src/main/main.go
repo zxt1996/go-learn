@@ -14,7 +14,7 @@ func aboutString(s string) string  {
 	return "hello " + s
 }
 
-func main()  {
+func aboutType()  {
 	fmt.Println(aboutString("jojo"))
 	fmt.Println(addition(1, 2))
 
@@ -39,4 +39,24 @@ func main()  {
 
 	bb, err := strconv.ParseBool("true")
 	fmt.Println(bb, err)
+}
+
+func variable()  {
+	var s, t string = "one", "two"
+	fmt.Println(s, t)
+
+	//简短变量声明
+	dog := "真的很狗"
+	fmt.Println(dog)
+
+	//块级作用域
+	can := true
+	if can {
+		fmt.Println(dog)
+	}
+}
+
+func main()  {
+	aboutType()
+	variable()
 }
