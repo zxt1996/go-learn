@@ -7,6 +7,7 @@ import (
 	"reflect"
 	"strconv"
 	"time"
+	"use"
 )
 
 //强类型
@@ -538,4 +539,6 @@ func main()  {
 	pingAndPong()
 
 	aboutSelect()
+
+	use.Use()
 }

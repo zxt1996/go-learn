@@ -20,6 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7634221f-9e01-4ac4-8926-3687057e07d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/other/other.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/use/use.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
     </list>
@@ -39,6 +41,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1jjm1wFq7JoRLccroiwzbJG12vQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -48,6 +57,9 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -56,7 +68,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zxt\Desktop\go-learn\src" />
+      <recent name="C:\Users\zxt\Desktop\go-learn\src\main" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -90,25 +108,37 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="914" height="280" key="GridCell.Tab.0.bottom" timestamp="1604476472516">
+    <state x="702" y="96" key="#GOPATH" timestamp="1604501244301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604476472516" />
-    <state width="914" height="280" key="GridCell.Tab.0.center" timestamp="1604476472516">
+    <state x="702" y="96" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1604501244301" />
+    <state x="437" y="446" key="EnvironmentVariablesDialog" timestamp="1604500628644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604476472516" />
-    <state width="914" height="280" key="GridCell.Tab.0.left" timestamp="1604476472516">
+    <state x="437" y="446" key="EnvironmentVariablesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604500628644" />
+    <state x="332" y="327" key="FileChooserDialogImpl" timestamp="1604501109730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604476472516" />
-    <state width="914" height="280" key="GridCell.Tab.0.right" timestamp="1604476472516">
+    <state x="332" y="327" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604501109730" />
+    <state width="1867" height="266" key="GridCell.Tab.0.bottom" timestamp="1604501311236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604476472516" />
-    <state x="761" y="108" width="998" height="708" key="SettingsEditor" timestamp="1604327033171">
+    <state width="1867" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604501311236" />
+    <state width="1867" height="266" key="GridCell.Tab.0.center" timestamp="1604501311236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="761" y="108" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604327033171" />
+    <state width="1867" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604501311236" />
+    <state width="1867" height="266" key="GridCell.Tab.0.left" timestamp="1604501311236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604501311236" />
+    <state width="1867" height="266" key="GridCell.Tab.0.right" timestamp="1604501311236">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604501311236" />
+    <state x="541" y="140" width="1141" height="883" key="SettingsEditor" timestamp="1604501351851">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="541" y="140" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604501351851" />
   </component>
 </project>
