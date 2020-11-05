@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7634221f-9e01-4ac4-8926-3687057e07d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/myConcurrent/myConcurrent.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myHttp/myHttp.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/go-learn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +44,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GoLibraries">
-    <option name="urls">
-      <list>
-        <option value="file://$PROJECT_DIR$" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1jjm1wFq7JoRLccroiwzbJG12vQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -57,7 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -67,10 +64,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learn\go-learn" />
+      <recent name="D:\Learn\go-learn\src\main" />
+      <recent name="D:\Learn\go-learn\src" />
       <recent name="C:\Users\zxt\Desktop\go-learn\src" />
       <recent name="C:\Users\zxt\Desktop\go-learn\src\main" />
     </key>
@@ -80,7 +80,7 @@
       <module name="go-learn" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/main/main.go" />
+      <filePath value="$PROJECT_DIR$/main.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -106,6 +106,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
   <component name="WindowStateProjectService">
     <state x="702" y="96" key="#GOPATH" timestamp="1604501244301">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -119,25 +122,40 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="332" y="327" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604541261601" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1604542675812">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1604568812223">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604542675812" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1604542675812">
+    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812223" />
+    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1604568812222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604542675812" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1604542675812">
+    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812222" />
+    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1604568812222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604542675812" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1604542675812">
+    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812222" />
+    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1604568812222">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604542675812" />
-    <state x="541" y="140" width="1141" height="883" key="SettingsEditor" timestamp="1604541262814">
+    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812222" />
+    <state x="541" y="140" width="1141" height="883" key="SettingsEditor" timestamp="1604568038967">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="541" y="140" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604541262814" />
+    <state x="541" y="140" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604568038967" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604565403624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604565403624" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
