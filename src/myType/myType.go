@@ -57,7 +57,11 @@ func variable()  {
 	}
 }
 
+const change string = "不能改变的常量"
+
 func MyType()  {
 	aboutType()
 	variable()
+
+	fmt.Println(change)
 }
