@@ -12,6 +12,7 @@ func gather()  {
 	fmt.Println(arr)
 
 	//内置函数make创建一个切片，其中第一个参数为数据类型，而第二个参数为长度
+	//切片的底层是基于数组实现的
 	var cheeses = make([] int, 3)
 	for i := 0;i < 3;i++ {
 		cheeses[i] = i
@@ -40,6 +41,21 @@ func gather()  {
 	fmt.Println(aboutMap)
 }
 
+func newArr()  {
+	slice := []int{1, 2, 3, 4, 5}
+
+	copySlice := slice[1:3]
+
+	copySlice = append(copySlice, 10)
+
+	//因为newSlice有可用的容量，不会创建新的切片来满足追加，所以直接在newSlice后追加了一个元素10，
+	//因为newSlice和slice切片共用一个底层数组，所以切片slice的对应的元素值也被改变了
+	//所以一般我们在创建新切片的时候，最好要让新切片的长度和容量一样，这样我们在追加操作的时候就会生成新的底层数组，和原有数组分离，
+	fmt.Println(slice)
+	fmt.Println(copySlice)
+}
+
 func MyArr()  {
-	gather()
+	//gather()
+	newArr()
 }

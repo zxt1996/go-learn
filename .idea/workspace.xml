@@ -20,13 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7634221f-9e01-4ac4-8926-3687057e07d1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myHttp/myHttp.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/go-learn.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myArr/myArr.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/myArr/myArr.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/myConcurrent/myConcurrent.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/myConcurrent/myConcurrent.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="go.sdk" />
+    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -110,10 +107,10 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
-    <state x="702" y="96" key="#GOPATH" timestamp="1604501244301">
+    <state x="702" y="96" key="#GOPATH" timestamp="1604629312558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="702" y="96" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1604501244301" />
+    <state x="702" y="96" key="#GOPATH/0.0.1920.1040@0.0.1920.1040" timestamp="1604629312558" />
     <state x="437" y="446" key="EnvironmentVariablesDialog" timestamp="1604500628644">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -122,26 +119,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="332" y="327" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604541261601" />
-    <state width="914" height="279" key="GridCell.Tab.0.bottom" timestamp="1604568812223">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom" timestamp="1604633191772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812223" />
-    <state width="914" height="279" key="GridCell.Tab.0.center" timestamp="1604568812222">
+    <state width="1877" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604633191772" />
+    <state width="1877" height="278" key="GridCell.Tab.0.center" timestamp="1604633191772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812222" />
-    <state width="914" height="279" key="GridCell.Tab.0.left" timestamp="1604568812222">
+    <state width="1877" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604633191772" />
+    <state width="1877" height="278" key="GridCell.Tab.0.left" timestamp="1604633191772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812222" />
-    <state width="914" height="279" key="GridCell.Tab.0.right" timestamp="1604568812222">
+    <state width="1877" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604633191772" />
+    <state width="1877" height="278" key="GridCell.Tab.0.right" timestamp="1604633191772">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="914" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604568812222" />
-    <state x="541" y="140" width="1141" height="883" key="SettingsEditor" timestamp="1604568038967">
+    <state width="1877" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604633191772" />
+    <state x="541" y="140" width="1141" height="883" key="SettingsEditor" timestamp="1604625389374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="541" y="140" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604568038967" />
+    <state x="541" y="140" width="1141" height="883" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604625389374" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604565403624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,7 +149,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/main.go</url>
-          <line>7</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
